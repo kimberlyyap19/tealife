@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@font-face{
+    src:url(../fonts/Merriweather/Merriweather-Regular.ttf);
+    font-family: Merriweadther;
+}
+@font-face{
+    src:url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: Sacramento;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    text-align: center;
+}
+.home-header{
+   
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: url(../img/sunset.gif);
+    background-size:cover;
+}
+.title{
+    font-family:Sacramento ;
+    font-size: 10rem;
+    position: relative;
+    top: 20rem;
+    color: rgb(22, 239, 247);
+     text-shadow: -1px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+
+}
+.sub{
+    font-family:Merriweadther ;
+    font-size: 2rem;
+    position: relative;
+    top: 21rem;
+    color: rgb(22, 239, 247);
+     text-shadow: -1px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   bottom: -5rem;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+
+

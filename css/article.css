@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@font-face{
+    src:url(../fonts/Merriweather/Merriweather-Regular.ttf);
+    font-family: Merriweadther;
+}
+@font-face{
+    src:url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: Sacramento;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    text-align: center;
+}
+.section-body{
+    height: 90vh;
+    background: rgb(91, 209, 91);
+}
+.img-head{
+width: 70rem;
+float: left;
+padding: 5rem;
+
+}
+.sub{
+    font-size: 25px;
+    font-family: Merriweadther;
+ position: relative;
+ top: 2rem;
+ color:#264D59;
+
+ right: 57rem;
+
+}
+.recent{
+    font-family: Merriweadther;
+    position: relative;
+    top: 5rem;
+    font-size: 18px;
+    text-align: left;
+    color:#264D59;
+}
+.article{
+    font-family: Merriweadther;
+    position: relative;
+    top: 7rem;
+    font-size: 16px;
+    text-align: left;
+    color:rgb(236, 228, 228);
+}
+.article-p{
+    font-family: Merriweadther;
+    position: relative;
+    top: 10rem;
+    font-size: 16px;
+    text-align: left;
+    color:rgb(236, 228, 228);
+}
+.place{
+    font-family: Merriweadther;
+    position: relative;
+    top: 9rem;
+    font-size: 18px;
+    text-align: left;
+    color:#264D59;
+
+}
+
+.header{
+    height: 15vh;
+    background: rgb(54, 146, 54);
+   
+}
+
+.main-footer{
+    height: 15vh;
+    background: rgb(54, 146, 54);
+}
+.item-nav{
+    font-size: 25px;
+    position: relative;
+    text-decoration: none;
+    color: rgb(190, 235, 236);
+    text-shadow: -1px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+    top:2rem;
+    margin-left: 2rem;
+}
+.item-nav:hover{
+color: rgb(13, 13, 133);
+}
+.txt-footer{
+    font-size: 23px;
+    position: relative; 
+    top:4rem; 
+}
+.title{
+    font-family: Merriweadther;
+    font-size: 4rem;
+    padding: 2rem;
+    color: rgb(190, 235, 236);
+    text-shadow: -1px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   bottom: -5rem;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  

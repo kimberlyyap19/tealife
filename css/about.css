@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@font-face{
+    src:url(../fonts/Merriweather/Merriweather-Regular.ttf);
+    font-family: Merriweadther;
+}
+@font-face{
+    src:url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: Sacramento;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    text-align: center;
+}
+
+.section-nature{
+    height: 45vh;
+    background: rgb(91, 209, 91);
+}
+
+.header{
+    height: 15vh;
+    background: rgb(54, 146, 54);
+   
+}
+.pic1{
+    width:25rem;
+    height: 25rem;
+    margin-right: 3rem;
+   float: left;
+   padding: 2rem;
+}
+.main-footer{
+    height: 15vh;
+    background: rgb(54, 146, 54);
+}
+.item-nav{
+    font-size: 25px;
+    position: relative;
+    text-decoration: none;
+    color: rgb(190, 235, 236);
+    text-shadow: -1px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+    top:2rem;
+    margin-left: 2rem;
+}
+.item-nav:hover{
+color: rgb(13, 13, 133);
+}
+.txt-footer{
+    font-size: 23px;
+    position: relative; 
+    top:4rem; 
+}
+.title{
+    font-family: Merriweadther;
+    font-size: 4rem;
+    padding: 2rem;
+    color: rgb(190, 235, 236);
+    text-shadow: -1px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+}
+.name1{
+    font-family: Merriweadther;
+    position: relative;
+    top: 2rem;
+    font-size: 17px;
+    text-align: left;
+}
+.quotes{
+    font-family: Merriweadther;
+    position: relative;
+    top: 7rem;
+    font-size: 17px;
+    text-align: left;
+}
+.pic2{
+    width:25rem;
+    height: 25rem;
+    margin-right: 3rem;
+    float: left;
+    padding: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   bottom: -5rem;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
